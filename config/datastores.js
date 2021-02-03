@@ -48,16 +48,17 @@ module.exports.datastores = {
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
     ***************************************************************************/
-    adapter: 'sails-postgresql',
-    // url: process.env.DATABASE_URL,
-    // ssl: false
-    host: 'ec2-75-101-232-85.compute-1.amazonaws.com',
-    port: 5432,
-    user: 'nxdvxynmkslyph',
-    password: 'c1af63cba38b12c1982d2854419a98de47defaaa1fb6c1afeb102d38a1bf97d2',
-    database: 'ddbu9i6ik1t6fg',
-    ssl: true,
-    poolSize: 10
+    // adapter: 'sails-postgresql',
+    // // url: process.env.DATABASE_URL,
+    // // ssl: false
+    // host: 'ec2-75-101-232-85.compute-1.amazonaws.com',
+    // port: 5432,
+    // user: 'nxdvxynmkslyph',
+    // password: 'c1af63cba38b12c1982d2854419a98de47defaaa1fb6c1afeb102d38a1bf97d2',
+    // database: 'ddbu9i6ik1t6fg',
+    // ssl: true,
+    // poolSize: 10,
+
     // adapter: 'sails-mysql',
     // host: '127.0.0.1',
     // port: 3306,
