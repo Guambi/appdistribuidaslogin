@@ -50,7 +50,9 @@ module.exports.datastores = {
     ***************************************************************************/
     adapter: 'sails-postgresql',
     url: 'postgres://nxdvxynmkslyph:c1af63cba38b12c1982d2854419a98de47defaaa1fb6c1afeb102d38a1bf97d2@ec2-75-101-232-85.compute-1.amazonaws.com:5432/ddbu9i6ik1t6fg',
-    ssl: false
+    ssl: {
+      rejectUnauthorized: false
+    }
 
     // adapter: 'sails-mysql',
     // host: '127.0.0.1',

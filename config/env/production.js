@@ -70,7 +70,9 @@ module.exports = {
       * https://sailsjs.com/config/datastores                                     *
       *                                                                           *
       ****************************************************************************/
-      ssl: { rejectUnauthorized: false },
+      ssl: {
+        rejectUnauthorized: false
+      },
 
     },
 
